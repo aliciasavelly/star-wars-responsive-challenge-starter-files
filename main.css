@@ -1,0 +1,20 @@
+header {
+	height: 30px;
+}
+
+.nav-bar {
+	background-color: #edb715;
+}
+
+h1, p {
+	margin-left: 100px;
+}
+
+h1 {
+	font-size: 20px;
+	word-spacing: 0px;
+}
+
+p {
+	word-spacing: 0px;
+}
