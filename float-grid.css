@@ -9,11 +9,6 @@
 	margin: 0 auto;
 }
 
-.col-12 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 .row::before, .row:after {
 	display: table;
 	content: '';
@@ -23,7 +18,7 @@
 	clear: both;
 }
 
-.row1, .row2 {
+.col-3, .col-4, .col-6, .col-12 {
 	float: left;
 	padding-left: 1.04166666%;
 	padding-right: 1.04166666%;
@@ -31,9 +26,19 @@
 }
 
 @media only screen and (min-width: 640px) {
-	.row1, .row2 {
+	
+	.col-3 {
+    width: 25%;
+  }
+
+	.col-4 {
 		width: 33.33%;
 	}
+
+	.col-6 {
+    width: 50%;
+  }
+
 	.col-12 {
 		width: 100%;
 	}
