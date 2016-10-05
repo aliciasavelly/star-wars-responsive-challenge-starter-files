@@ -1,67 +1,44 @@
-header {
-	height: 110px;
-	background-color: #eebb44;
-	margin-bottom: 40px;
-}
-
 body {
-	font-family: "Roboto", sans-serif;
-	color: #252525;
+  font-family: "Roboto", sans-serif;
+  color: #252525;
 }
 
-h1, header p {
-	margin-left: 100px;
+header {
+  background-color: #eebb44;
+  margin-bottom: 40px;
 }
 
-h1 {
-	font-size: 30px;
-	margin-bottom: 0;
-	line-height: 1.5;
+header h1 {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 0;
 }
 
 header p {
-	margin-top: 2px;
-	font-size: 18px;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
 .box {
-	border: 1px solid #E5E5E5;
-	height: 300px;
-	/*margin-bottom: 50px;*/
-	/*display: inline-block;*/
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
 }
 
-.box img {
-	/*height: 100px;*/
-	width: 100%;
-}
-
-main {
-	padding-top: 100px;
-}
-
-main .row {
-	margin-bottom: 20px;
+.box-image {
+  width: 100%;
 }
 
 .char-info {
-	text-align: center;
+  padding: 20px;
 }
 
-div {
-	display: block;
-}
-
-h2, .char-info p {
-	text-align: left;
-	margin-left: 20px;
-}
-
-h2 {
-	font-size: 18px;
-	font-weight: bold;
+.char-info h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .char-info p {
-	font-size: 15px;
+  font-size: 15px;
+  margin-top: 12px;
 }
