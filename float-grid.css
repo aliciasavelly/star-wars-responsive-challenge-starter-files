@@ -10,7 +10,7 @@
 }
 
 .row::before, .row:after {
-	display: table;
+	display: flex;
 	content: '';
 }
 
